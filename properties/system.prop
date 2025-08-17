@@ -9,3 +9,9 @@ persist.vendor.camera.ois.video=1
 
 # Xiaomi
 ro.product.mod_device=marble_global
+
+# Axion
+ro.product.marketname=Poco F5 5G
+debug.window_animation_scale=0.5
+debug.transition_animation_scale=0.5
+debug.animator_duration_scale=0.5
