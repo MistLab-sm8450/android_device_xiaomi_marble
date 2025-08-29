@@ -4,12 +4,12 @@ echo 'Cloning Device Common Tree'
 	git clone https://github.com/dhanush281/android_device_xiaomi_sm8450-common.git device/xiaomi/sm8450-common
 
 echo 'Cloning MemeCamera Tree'
-    git clone https://github.com/dhanush281/android_device_xiaomi_miuicamera-marble.git -b lineage-23.0 device/xiaomi/miuicamera-marble
+    git clone https://github.com/dhanush281/android_device_xiaomi_miuicamera-marble.git device/xiaomi/miuicamera-marble
 
-    git clone https://gitlab.com/xiaomi-sm8450-marble/android_vendor_xiaomi_miuicamera-marble.git -b lineage-23.0 vendor/xiaomi/miuicamera-marble
+    git clone https://gitlab.com/xiaomi-sm8450-marble/android_vendor_xiaomi_miuicamera-marble.git vendor/xiaomi/miuicamera-marble
 
 echo 'Cloning Hardware Dolby Tree'
-    git clone https://github.com/dhanush281/android_hardware_dolby.git -b lineage-23.0 hardware/dolby
+    git clone https://github.com/dhanush281/android_hardware_dolby.git hardware/dolby
 
 echo 'Cloning Hardware Xiaomi Tree'
 	git clone https://github.com/dhanush281/android_hardware_xiaomi.git hardware/xiaomi
