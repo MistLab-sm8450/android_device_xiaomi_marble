@@ -24,8 +24,3 @@ echo 'Cloning Vendor Tree'
 
 echo 'Cloning Vendor Common Tree'
     git clone https://github.com/dhanush281/proprietary_vendor_xiaomi_sm8450-common.git vendor/xiaomi/sm8450-common
-
-echo 'cloning wfd tree'
-    git clone https://github.com/dhanush281/android_device_qcom_wfd.git device/qcom/wfd
-
-    git clone https://github.com/dhanush281/android_vendor_qcom_wfd.git vendor/qcom/wfd
