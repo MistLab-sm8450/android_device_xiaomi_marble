@@ -22,7 +22,7 @@ DEVICE_PATH := device/xiaomi/marble
 TARGET_OTA_ASSERT_DEVICE := marble|marblein
 
 # Camera - Miui
-TARGET_CAMERA_PACKAGE_NAME := com.android.camera
+$(call soong_config_set,camera,package_name,com.android.camera)
 
 # Init
 TARGET_RECOVERY_DEVICE_MODULES ?= init_xiaomi_marble
