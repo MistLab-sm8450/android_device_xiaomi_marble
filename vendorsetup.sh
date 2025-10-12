@@ -6,7 +6,7 @@ echo 'Cloning Device Common Tree'
 echo 'Cloning MemeCamera Tree'
     git clone https://github.com/dhanush281/android_device_xiaomi_miuicamera-marble.git device/xiaomi/miuicamera-marble
 
-    git clone https://gitlab.com/xiaomi-sm8450-marble/android_vendor_xiaomi_miuicamera-marble.git vendor/xiaomi/miuicamera-marble
+    git clone https://gitlab.com/dhanush281/vendor_xiaomi_miuicamera-marble.git vendor/xiaomi/miuicamera-marble
 
 echo 'Cloning Hardware Dolby Tree'
     git clone https://github.com/dhanush281/android_hardware_dolby.git hardware/dolby
