@@ -10,12 +10,19 @@ $(call inherit-product, device/xiaomi/marble/device.mk)
 # Inherit from common lineage configuration
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# RisingOS stuff
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_DISABLE_EPPE := true
+# Face Unlock
+TARGET_FACE_UNLOCK := true
+# Blur
 TARGET_ENABLE_BLUR := true
-TARGET_HAS_UDFPS := false
+# BCR (Call recording)
+TARGET_PREBUILT_BCR := true
+# Mist OS Flags
+MIST_BUILD_TYPE := OFFICIAL
+MISTOS_MAINTAINER := AndroidME77_x_Dhanush
 WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+PRODUCT_NO_CAMERA := false
+TARGET_DISABLE_EPPE := true
 TARGET_INCLUDE_ACCORD := false
 
 # Quick Switch
@@ -31,8 +38,3 @@ BUILD_FINGERPRINT := POCO/marble_global/marble:15/AQ3A.241006.001/OS2.0.5.0.VMRM
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Maintainer stuff
-RISING_MAINTAINER=Dhanush
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Snapdragon® 7+ Gen 2" \
-    RisingMaintainer="Dhanush"
